@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #60daff93;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.l-container{
+    width: 80% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0;
+}
+
+.c-heading-h1{
+    color: rgb(24, 8, 26);
+    font-size: 2.5em;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 24px;
+}
+
+.c-paragraph{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+.carrossel{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+   
+}
+
+img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
